@@ -4,8 +4,10 @@ go 1.19
 
 require github.com/gin-gonic/gin v1.8.1
 
+require github.com/Azure/azure-sdk-for-go/sdk/internal v1.1.2 // indirect
+
 require (
-	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.2.0
+	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.3.1
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/go-playground/locales v0.14.0 // indirect
 	github.com/go-playground/universal-translator v0.18.0 // indirect
@@ -20,9 +22,9 @@ require (
 	github.com/pelletier/go-toml/v2 v2.0.1 // indirect
 	github.com/ugorji/go/codec v1.2.7 // indirect
 	golang.org/x/crypto v0.0.0-20210711020723-a769d52b0f97 // indirect
-	golang.org/x/net v0.0.0-20220425223048-2871e0cb64e4 // indirect
-	golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/net v0.5.0 // indirect
+	golang.org/x/sys v0.4.0 // indirect
+	golang.org/x/text v0.6.0 // indirect
 	google.golang.org/protobuf v1.28.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
